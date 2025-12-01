@@ -24,14 +24,14 @@ class Car{
     }
 }
 
-class Agable extends Car {
- currentYear = 2025;
-    age = currentYear - year;
-    constructor(){
+class Agable extends Company {
+    constructor(age){
         super(year)
-        this.currentYeer = currentYear;
+currentYear = 2025;
+age = currentYear - year;
     }
 }
+
 
 
 
